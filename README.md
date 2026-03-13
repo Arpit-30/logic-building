@@ -23,7 +23,7 @@ To strengthen core programming fundamentals and improve problem-solving skills f
 ## 🛠 Language Used
 
 - Java
-
+- c
 ---
 
 ## 📅 Daily Progress
