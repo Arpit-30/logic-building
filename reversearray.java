@@ -1,23 +1,19 @@
 
 import java.util.Scanner;
 
-public class average{
+public class reversearray {
     public static void main(String[] args) {
-        int i,sum=0;
-        double ave;
+        int i;
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the size of array");
+        System.out.println("enter the array size");
         int size=sc.nextInt();
         int[] arr=new int[size];
         for(i=0;i<arr.length;i++){
             System.out.println("enter the number");
             arr[i]=sc.nextInt();
         }
-        for(i=0;i<arr.length;i++){
-            sum=sum+arr[i];
+        for(i=arr.length-1;i>=0;i--){
+            System.out.println(arr[i]);
         }
-        ave=(double)sum/arr.length;
-        System.out.println("the sum is "+sum);
-        System.out.println("the average is "+ave);
     }
 }
