@@ -14,11 +14,11 @@ public class slargest {
         int largest=Integer.MIN_VALUE;
         int second_largest= Integer.MIN_VALUE;
         for(int i=0;i<arr.length;i++){
-            if(arr[i]>largest){
+            if(arr[i]>largest){ 
                 second_largest=largest;
                 largest=arr[i];
             }
-            else if(arr[i]!=largest && largest<second_largest){
+            else if(arr[i]!=largest && arr[i]>second_largest){
                     second_largest=arr[i];
             }
         }
